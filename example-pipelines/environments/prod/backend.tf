@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "onyx-sequence-330803-tfstate"
     prefix = "env/prod"
   }
 }
